@@ -42,7 +42,7 @@ namespace Triangle
             {
                 Console.WriteLine("\nThis is an Equilateral Triangle....\n\n ");
             }
-            else if (lengthA == lengthB || lengthA == lengthC)
+            else if (lengthA == lengthB || lengthA == lengthC || lengthB == lengthC)
             {
                 Console.WriteLine("\nThis is an Isoceles Triangle....\n\n ");
             }
